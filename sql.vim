@@ -61,6 +61,7 @@ ab set            SET
 ab show           SHOW
 ab smallint       SMALLINT
 ab table          TABLE
+ab trigger	  TRIGGER
 ab unique         UNIQUE
 ab unsigned       UNSIGNED
 ab update         UPDATE
