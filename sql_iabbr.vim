@@ -115,6 +115,7 @@ inoreabbr <silent> <buffer> intersect <C-R>=SqlIab_ReplaceConditionally('interse
 inoreabbr <silent> <buffer> interval <C-R>=SqlIab_ReplaceConditionally('interval', 'INTERVAL')<CR>
 inoreabbr <silent> <buffer> into <C-R>=SqlIab_ReplaceConditionally('into', 'INTO')<CR>
 inoreabbr <silent> <buffer> is <C-R>=SqlIab_ReplaceConditionally('is', 'IS')<CR>
+inoreabbr <silent> <buffer> join <C-R>=SqlIab_ReplaceConditionally('join', 'JOIN')<CR>
 inoreabbr <silent> <buffer> key <C-R>=SqlIab_ReplaceConditionally('key', 'KEY')<CR>
 inoreabbr <silent> <buffer> language <C-R>=SqlIab_ReplaceConditionally('language', 'LANGUAGE')<CR>
 inoreabbr <silent> <buffer> level <C-R>=SqlIab_ReplaceConditionally('level', 'LEVEL')<CR>
