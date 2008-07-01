@@ -105,6 +105,7 @@ inoreabbr <silent> <buffer> increment <C-R>=SqlIab_ReplaceConditionally('increme
 inoreabbr <silent> <buffer> index <C-R>=SqlIab_ReplaceConditionally('index', 'INDEX')<CR>
 inoreabbr <silent> <buffer> inet <C-R>=SqlIab_ReplaceConditionally('inet', 'INET')<CR>
 inoreabbr <silent> <buffer> initial <C-R>=SqlIab_ReplaceConditionally('initial', 'INITIAL')<CR>
+inoreabbr <silent> <buffer> inner <C-R>=SqlIab_ReplaceConditionally('inner', 'INNER')<CR>
 inoreabbr <silent> <buffer> ins <C-R>=SqlIab_ReplaceConditionally('ins', 'INSERT')<CR>
 inoreabbr <silent> <buffer> insert <C-R>=SqlIab_ReplaceConditionally('insert', 'INSERT')<CR>
 inoreabbr <silent> <buffer> int <C-R>=SqlIab_ReplaceConditionally('int', 'INTEGER')<CR>
