@@ -57,6 +57,7 @@ inoreabbr <silent> <buffer> circle <C-R>=SqlIab_ReplaceConditionally('circle', '
 inoreabbr <silent> <buffer> close <C-R>=SqlIab_ReplaceConditionally('close', 'CLOSE')<CR>
 inoreabbr <silent> <buffer> cluster <C-R>=SqlIab_ReplaceConditionally('cluster', 'CLUSTER')<CR>
 inoreabbr <silent> <buffer> column <C-R>=SqlIab_ReplaceConditionally('column', 'COLUMN')<CR>
+inoreabbr <silent> <buffer> count <C-R>=SqlIab_ReplaceConditionally('count', 'COUNT')<CR>
 inoreabbr <silent> <buffer> comment <C-R>=SqlIab_ReplaceConditionally('comment', 'COMMENT')<CR>
 inoreabbr <silent> <buffer> commit <C-R>=SqlIab_ReplaceConditionally('commit', 'COMMIT')<CR>
 inoreabbr <silent> <buffer> compress <C-R>=SqlIab_ReplaceConditionally('compress', 'COMPRESS')<CR>
