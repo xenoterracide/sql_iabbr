@@ -224,6 +224,7 @@ inoreabbr <silent> <buffer> user <C-R>=SqlIab_ReplaceConditionally('user', 'USER
 inoreabbr <silent> <buffer> using <C-R>=SqlIab_ReplaceConditionally('using', 'USING')<CR>
 inoreabbr <silent> <buffer> vacuum <C-R>=SqlIab_ReplaceConditionally('vacuum', 'VACUUM')<CR>
 inoreabbr <silent> <buffer> validate <C-R>=SqlIab_ReplaceConditionally('validate', 'VALIDATE')<CR>
+inoreabbr <silent> <buffer> value <C-R>=SqlIab_ReplaceConditionally('value', 'VALUE')<CR>
 inoreabbr <silent> <buffer> values <C-R>=SqlIab_ReplaceConditionally('values', 'VALUES')<CR>
 inoreabbr <silent> <buffer> varchar <C-R>=SqlIab_ReplaceConditionally('varchar', 'VARCHAR')<CR>
 inoreabbr <silent> <buffer> varchar2 <C-R>=SqlIab_ReplaceConditionally('varchar2', 'VARCHAR2')<CR>
