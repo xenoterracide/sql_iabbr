@@ -185,6 +185,7 @@ inoreabbr <silent> <buffer> rownum <C-R>=SqlIab_ReplaceConditionally('rownum', '
 inoreabbr <silent> <buffer> rows <C-R>=SqlIab_ReplaceConditionally('rows', 'ROWS')<CR>
 inoreabbr <silent> <buffer> rule <C-R>=SqlIab_ReplaceConditionally('rule', 'RULE')<CR>
 inoreabbr <silent> <buffer> savepoint <C-R>=SqlIab_ReplaceConditionally('savepoint', 'SAVEPOINT')<CR>
+inoreabbr <silent> <buffer> schema <C-R>=SqlIab_ReplaceConditionally('schema', 'SCHEMA')<CR>
 inoreabbr <silent> <buffer> select <C-R>=SqlIab_ReplaceConditionally('select', 'SELECT')<CR>
 inoreabbr <silent> <buffer> sequence <C-R>=SqlIab_ReplaceConditionally('sequence', 'SEQUENCE')<CR>
 inoreabbr <silent> <buffer> serial <C-R>=SqlIab_ReplaceConditionally('serial', 'SERIAL')<CR>
