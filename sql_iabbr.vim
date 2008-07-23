@@ -176,6 +176,7 @@ inoreabbr <silent> <buffer> rename <C-R>=SqlIab_ReplaceConditionally('rename', '
 inoreabbr <silent> <buffer> reset <C-R>=SqlIab_ReplaceConditionally('reset', 'RESET')<CR>
 inoreabbr <silent> <buffer> resource <C-R>=SqlIab_ReplaceConditionally('resource', 'RESOURCE')<CR>
 inoreabbr <silent> <buffer> return <C-R>=SqlIab_ReplaceConditionally('return', 'RETURN')<CR>
+inoreabbr <silent> <buffer> returns <C-R>=SqlIab_ReplaceConditionally('returns', 'RETURNS')<CR>
 inoreabbr <silent> <buffer> revoke <C-R>=SqlIab_ReplaceConditionally('revoke', 'REVOKE')<CR>
 inoreabbr <silent> <buffer> rollback <C-R>=SqlIab_ReplaceConditionally('rollback', 'ROLLBACK')<CR>
 inoreabbr <silent> <buffer> row <C-R>=SqlIab_ReplaceConditionally('row', 'ROW')<CR>
