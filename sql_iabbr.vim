@@ -6,7 +6,7 @@
 "		  Hari Krishna Dara <hari_vim at yahoo dot com> 
 "		  Zak Beck <zak dot beck at e-peopleserve dot com>
 " Last Change:	Sun Oct 19 08:04:12 EDT 2008
-" Revision:	  2.0.0
+" Revision:	  2.0.1
 " Download From:
 "     http://vim.sourceforge.net/script.php?script_id=2409
 "	  http://github.com/xenoterracide/sql_iabbr/tree/master
