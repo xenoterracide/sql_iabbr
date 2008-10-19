@@ -1,11 +1,12 @@
 " SQL filetype plugin file
 " Language:	  SQL
-" Maintainer:	  Michael Brailsford <brailsmt at yahoo dot com>
+" Maintainer: Caleb Cushing <xenoterracide@gmail.com>
 " Contributions:
+"		  Michael Brailsford <brailsmt at yahoo dot com> " original author
 "		  Hari Krishna Dara <hari_vim at yahoo dot com> 
 "		  Zak Beck <zak dot beck at e-peopleserve dot com>
-" Last Change:	  13-Nov-2002 @ 15:56
-" Revision:	  1.5.0
+" Last Change:	Sun Oct 19 08:04:12 EDT 2008
+" Revision:	  2.0.0
 " Download From:
 "     http://vim.sourceforge.net/script.php?script_id=305
 " Description:
