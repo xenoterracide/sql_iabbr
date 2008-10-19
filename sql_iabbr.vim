@@ -8,7 +8,9 @@
 " Last Change:	Sun Oct 19 08:04:12 EDT 2008
 " Revision:	  2.0.0
 " Download From:
-"     http://vim.sourceforge.net/script.php?script_id=305
+"     http://vim.sourceforge.net/script.php?script_id=2409
+"	  http://github.com/xenoterracide/sql_iabbr/tree/master
+"	  git://github.com/xenoterracide/sql_iabbr.git
 " Description:
 "   Capitalizes the SQL keywords when not typed in comments or string constants.
 "     To undo the previous immediate capitalization, press ^Xu. This will work
