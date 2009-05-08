@@ -80,6 +80,7 @@ inoreabbr <silent> <buffer> default <C-R>=SqlIab_ReplaceConditionally('default',
 inoreabbr <silent> <buffer> delete <C-R>=SqlIab_ReplaceConditionally('delete', 'DELETE')<CR>
 inoreabbr <silent> <buffer> desc <C-R>=SqlIab_ReplaceConditionally('desc', 'DESC')<CR>
 inoreabbr <silent> <buffer> distinct <C-R>=SqlIab_ReplaceConditionally('distinct', 'DISTINCT')<CR>
+inoreabbr <silent> <buffer> domain <C-R>=SqlIab_ReplaceConditionally('domain', 'DOMAIN')<CR>
 inoreabbr <silent> <buffer> drop <C-R>=SqlIab_ReplaceConditionally('drop', 'DROP')<CR>
 inoreabbr <silent> <buffer> else <C-R>=SqlIab_ReplaceConditionally('else', 'ELSE')<CR>
 inoreabbr <silent> <buffer> elsif <C-R>=SqlIab_ReplaceConditionally('elsif', 'ELSIF')<CR>
