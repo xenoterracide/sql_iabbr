@@ -243,6 +243,7 @@ inoreabbr <silent> <buffer> xid <C-R>=SqlIab_ReplaceConditionally('xid', 'XID')<
 inoreabbr <silent> <buffer> replace <C-R>=SqlIab_ReplaceConditionally('replace', 'REPLACE')<CR>
 inoreabbr <silent> <buffer> error <C-R>=SqlIab_ReplaceConditionally('error', 'ERROR')<CR>
 inoreabbr <silent> <buffer> output <C-R>=SqlIab_ReplaceConditionally('output', 'OUTPUT')<CR>
+inoreabbr <silent> <buffer> owned <C-R>=SqlIab_ReplaceConditionally('owned', 'OWNED')<CR>
 inoreabbr <silent> <buffer> datetime <C-R>=SqlIab_ReplaceConditionally('datetime', 'DATETIME')<CR>
 
 function! SqlIab_ReplaceConditionally(original, replacement)
