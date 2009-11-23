@@ -66,6 +66,7 @@ inoreabbr <silent> <buffer> comment <C-R>=SqlIab_ReplaceConditionally('comment',
 inoreabbr <silent> <buffer> commit <C-R>=SqlIab_ReplaceConditionally('commit', 'COMMIT')<CR>
 inoreabbr <silent> <buffer> compress <C-R>=SqlIab_ReplaceConditionally('compress', 'COMPRESS')<CR>
 inoreabbr <silent> <buffer> connect <C-R>=SqlIab_ReplaceConditionally('connect', 'CONNECT')<CR>
+inoreabbr <silent> <buffer> constraint <C-R>=SqlIab_ReplaceConditionally('constraint', 'CONSTRAINT')<CR>
 inoreabbr <silent> <buffer> constraints <C-R>=SqlIab_ReplaceConditionally('constraints', 'CONSTRAINTS')<CR>
 inoreabbr <silent> <buffer> copy <C-R>=SqlIab_ReplaceConditionally('copy', 'COPY')<CR>
 inoreabbr <silent> <buffer> cre <C-R>=SqlIab_ReplaceConditionally('cre', 'CREATE')<CR>
