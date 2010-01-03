@@ -161,6 +161,7 @@ inoreabbr <silent> <buffer> option <C-R>=SqlIab_ReplaceConditionally('option', '
 inoreabbr <silent> <buffer> or <C-R>=SqlIab_ReplaceConditionally('or', 'OR')<CR>
 inoreabbr <silent> <buffer> order <C-R>=SqlIab_ReplaceConditionally('order', 'ORDER')<CR>
 inoreabbr <silent> <buffer> out <C-R>=SqlIab_ReplaceConditionally('out', 'OUT')<CR>
+inoreabbr <silent> <buffer> password <C-R>=SqlIab_ReplaceConditionally('password', 'PASSWORD')<CR>
 inoreabbr <silent> <buffer> path <C-R>=SqlIab_ReplaceConditionally('path', 'PATH')<CR>
 inoreabbr <silent> <buffer> pctfree <C-R>=SqlIab_ReplaceConditionally('pctfree', 'PCTFREE')<CR>
 inoreabbr <silent> <buffer> point <C-R>=SqlIab_ReplaceConditionally('point', 'POINT')<CR>
