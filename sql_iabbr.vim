@@ -44,6 +44,7 @@ inoreabbr <silent> <buffer> authorization <C-R>=SqlIab_ReplaceConditionally('aut
 inoreabbr <silent> <buffer> begin <C-R>=SqlIab_ReplaceConditionally('begin', 'BEGIN')<CR>
 inoreabbr <silent> <buffer> between <C-R>=SqlIab_ReplaceConditionally('between', 'BETWEEN')<CR>
 inoreabbr <silent> <buffer> bigint <C-R>=SqlIab_ReplaceConditionally('bigint', 'BIGINT')<CR>
+inoreabbr <silent> <buffer> bigserial <C-R>=SqlIab_ReplaceConditionally('bigserial', 'BIGSERIAL')<CR>
 inoreabbr <silent> <buffer> bit <C-R>=SqlIab_ReplaceConditionally('bit', 'BIT')<CR>
 inoreabbr <silent> <buffer> blob <C-R>=SqlIab_ReplaceConditionally('blob', 'BLOB')<CR>
 inoreabbr <silent> <buffer> boolean <C-R>=SqlIab_ReplaceConditionally('boolean', 'BOOLEAN')<CR>
