@@ -5,7 +5,7 @@
 "		  Michael Brailsford <brailsmt at yahoo dot com> " original author
 "		  Hari Krishna Dara <hari_vim at yahoo dot com> 
 "		  Zak Beck <zak dot beck at e-peopleserve dot com>
-" Last Change:	Sun Oct 19 08:04:12 EDT 2008
+" Last Change: Mon Mar  8 07:40:40 EST 2010
 " Revision:	  2.0.1
 " Download From:
 "     http://vim.sourceforge.net/script.php?script_id=2409
@@ -72,6 +72,7 @@ inoreabbr <silent> <buffer> constraints <C-R>=SqlIab_ReplaceConditionally('const
 inoreabbr <silent> <buffer> copy <C-R>=SqlIab_ReplaceConditionally('copy', 'COPY')<CR>
 inoreabbr <silent> <buffer> cre <C-R>=SqlIab_ReplaceConditionally('cre', 'CREATE')<CR>
 inoreabbr <silent> <buffer> create <C-R>=SqlIab_ReplaceConditionally('create', 'CREATE')<CR>
+inoreabbr <silent> <buffer> cross <C-R>=SqlIab_ReplaceConditionally('cross', 'CROSS')<CR>
 inoreabbr <silent> <buffer> current <C-R>=SqlIab_ReplaceConditionally('current', 'CURRENT')<CR>
 inoreabbr <silent> <buffer> cursor <C-R>=SqlIab_ReplaceConditionally('cursor', 'CURSOR')<CR>
 inoreabbr <silent> <buffer> database <C-R>=SqlIab_ReplaceConditionally('database', 'DATABASE')<CR>
@@ -243,6 +244,7 @@ inoreabbr <silent> <buffer> view <C-R>=SqlIab_ReplaceConditionally('view', 'VIEW
 inoreabbr <silent> <buffer> whenever <C-R>=SqlIab_ReplaceConditionally('whenever', 'WHENEVER')<CR>
 inoreabbr <silent> <buffer> where <C-R>=SqlIab_ReplaceConditionally('where', 'WHERE')<CR>
 inoreabbr <silent> <buffer> with <C-R>=SqlIab_ReplaceConditionally('with', 'WITH')<CR>
+inoreabbr <silent> <buffer> while <C-R>=SqlIab_ReplaceConditionally('while', 'WHILE')<CR>
 inoreabbr <silent> <buffer> xid <C-R>=SqlIab_ReplaceConditionally('xid', 'XID')<CR>
 inoreabbr <silent> <buffer> replace <C-R>=SqlIab_ReplaceConditionally('replace', 'REPLACE')<CR>
 inoreabbr <silent> <buffer> error <C-R>=SqlIab_ReplaceConditionally('error', 'ERROR')<CR>
