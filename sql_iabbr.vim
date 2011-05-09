@@ -16,7 +16,8 @@
 "     To undo the previous immediate capitalization, press ^Xu. This will work
 "     correctly only when you are still next to the word for which you want to
 "     undo capitaliation and you have not left the insert mode since the
-"     capitaliation was done.
+"     capitaliation was done. In order to switch plugin off for current
+"     buffer set the b:sql_iabbr variable to 0. To switch it back set it to 1.
 " Installation:
 "   Place it in your ftplugin directory (under user runtime directory).
 
@@ -253,16 +254,21 @@ inoreabbr <silent> <buffer> owned <C-R>=SqlIab_ReplaceConditionally('owned', 'OW
 inoreabbr <silent> <buffer> datetime <C-R>=SqlIab_ReplaceConditionally('datetime', 'DATETIME')<CR>
 
 function! SqlIab_ReplaceConditionally(original, replacement)
-  " only replace outside of comments or strings (which map to constant)
-  let elesyn = synIDtrans(synID(line("."), col(".") - 1, 0))
-  if elesyn != hlID('Comment') && elesyn != hlID('Constant')
-    let word = a:replacement
-  else
-    let word = a:original
-  endif
+    if !exists("b:sql_iabbr") || b:sql_iabbr == 1
+      " only replace outside of comments or strings (which map to constant)
+      let elesyn = synIDtrans(synID(line("."), col(".") - 1, 0))
+      if elesyn != hlID('Comment') && elesyn != hlID('Constant') && elesyn != hlID('String')
 
-  let g:UndoBuffer = a:original
-  return word
+        let word = a:replacement
+      else
+        let word = a:original
+      endif
+
+      let g:UndoBuffer = a:original
+      return word
+    else
+      return a:original
+    endif 
 endfunction
 
 inoremap <buffer> <C-X>u <C-W><C-R>=g:UndoBuffer<CR><C-V><Space>
